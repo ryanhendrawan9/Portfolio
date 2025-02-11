@@ -15,7 +15,7 @@ const Navbar = () => {
         {/* logo section */}
         <div>
           <a href="/">
-            <img src={Logo} alt="" className="w-[110px]" />
+            <img src={Logo} alt="" className="w-[90px]" />
           </a>
         </div>
         {/* Menu section  */}
