@@ -70,6 +70,9 @@ const About = () => {
                   React
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
+                  Vite
+                </p>
+                <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
                   Next.js
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
