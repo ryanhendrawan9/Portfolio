@@ -17,16 +17,6 @@ const App = () => {
       <Project />
       <Contact />
       <Footer />
-      <ScrollToTop
-        smooth
-        color="white"
-        style={{
-          backgroundColor: "#3BB2F6",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      />
     </div>
   );
 };
