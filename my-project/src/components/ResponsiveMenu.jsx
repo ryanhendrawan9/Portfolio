@@ -13,7 +13,9 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
           <FaUserCircle size={50} className="text-white" />
           <div>
             <h1 className="text-white">Ryan Hendrawan</h1>
-            <h1 className="text-sm text-slate-500">Banjarmasin, Kalimantan Selatan</h1>
+            <h1 className="text-sm text-slate-500">
+              Banjarmasin, Kalimantan Selatan
+            </h1>
           </div>
         </div>
         <nav className="mt-12">
@@ -37,7 +39,10 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
               </li>
             </a>
             <a href="#contact">
-              <button className="px-3 py-1 cursor-pointer rounded-md bg-blue-500 text-white flex items-center gap-1 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] shadow-blue-500 border-blue-400 border-2">
+              <button
+                className="px-3 py-1 cursor-pointer rounded-md bg-blue-500 text-white flex items-center gap-1 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] shadow-blue-500 border-blue-400 border-2"
+                onClick={() => setShowMenu(false)}
+              >
                 Contact
                 <FaChevronRight />
               </button>

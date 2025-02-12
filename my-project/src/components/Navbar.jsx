@@ -10,7 +10,7 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <div className="fixed z-50 w-full py-3 bg-gray-950 -mb-7">
+    <div className="fixed z-50 w-full py-3 bg-opacity-95 bg-gray-950 -mb-7 ">
       <div className="flex items-center justify-between px-4 mx-auto max-w-7xl md:px-0">
         {/* logo section */}
         <div>
