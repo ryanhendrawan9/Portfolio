@@ -37,7 +37,7 @@ const Hero = () => {
             transition={{ duration: 1.2, delay: 0.4 }}
             className="mb-3 text-xl md:text-2xl"
           >
-            Government Administration | Frontend Developer
+            Frontend Developer
           </motion.p>
           <motion.button
             initial={{ opacity: 0, x: -100 }}
