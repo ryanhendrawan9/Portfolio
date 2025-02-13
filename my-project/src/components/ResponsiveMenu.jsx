@@ -14,7 +14,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
           <div>
             <h1 className="text-white">Ryan Hendrawan</h1>
             <h1 className="text-sm text-slate-500">
-              Banjarmasin, Kalimantan Selatan
+              Frontend Developer
             </h1>
           </div>
         </div>
