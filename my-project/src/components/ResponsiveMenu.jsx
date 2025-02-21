@@ -20,7 +20,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
         </div>
         <nav className="mt-12">
           <ul className="flex flex-col text-lg font-semibold text-white gap-7">
-            <a href="/">
+            <a href="#home">
               <li className="cursor-pointer">Home</li>
             </a>
             <a href="#about">
