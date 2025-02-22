@@ -13,15 +13,15 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
           <FaUserCircle size={50} className="text-white" />
           <div>
             <h1 className="text-white">Ryan Hendrawan</h1>
-            <h1 className="text-sm text-slate-500">
-              Frontend Developer
-            </h1>
+            <h1 className="text-sm text-slate-500">Frontend Developer</h1>
           </div>
         </div>
         <nav className="mt-12">
           <ul className="flex flex-col text-lg font-semibold text-white gap-7">
             <a href="#home">
-              <li className="cursor-pointer">Home</li>
+              <li className="cursor-pointer" onClick={() => setShowMenu(false)}>
+                Home
+              </li>
             </a>
             <a href="#about">
               <li className="cursor-pointer" onClick={() => setShowMenu(false)}>
