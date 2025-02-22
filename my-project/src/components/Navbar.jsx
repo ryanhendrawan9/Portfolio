@@ -1,20 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../assets/Logo.png";
 import { FaChevronRight } from "react-icons/fa";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 
-const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+const Navbar = ({ showMenu, setShowMenu, toggleMenu }) => {
   return (
-    <div className="fixed z-50 w-full py-3 bg-gray-900 bg-opacity-95 -mb-7 ">
+    <div className="fixed z-50 w-full py-3 bg-gray-900 bg-opacity-95 -mb-7">
       <div className="flex items-center justify-between px-4 mx-auto max-w-7xl md:px-0">
         {/* logo section */}
         <div>
-            <img src={Logo} alt="" className="w-[90px]" />
+          <img src={Logo} alt="" className="w-[90px]" />
         </div>
         {/* Menu section  */}
         <nav className="hidden md:block">
