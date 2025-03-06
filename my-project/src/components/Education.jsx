@@ -21,8 +21,7 @@ const experience = [
     role: "Government Administration",
     company: "Dinas Pendidikan dan Kebudayaan Prov. Kalimantan Selatan",
     year: "2018 - Present",
-    description:
-      "",
+    description: "",
     icon: "💼",
   },
 ];

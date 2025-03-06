@@ -47,9 +47,27 @@ const Contact = () => {
                 Follow Me
               </h3>
               <div className="flex gap-3 mt-5 text-2xl transition-all">
-                <FaLinkedin className="text-blue-400" />
-                <FaGithub className="text-blue-400" />
-                <FaInstagram className="text-blue-400" />
+                <a
+                  href="https://www.linkedin.com/in/ryanhendrawan9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin className="text-blue-400 hover:text-white" />
+                </a>
+                <a
+                  href="https://github.com/ryanhendrawan9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub className="text-blue-400 hover:text-white" />
+                </a>
+                <a
+                  href="https://www.instagram.com/ryanhendrawan9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="text-blue-400 hover:text-white" />
+                </a>
               </div>
             </div>
           </div>

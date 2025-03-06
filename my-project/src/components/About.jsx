@@ -80,7 +80,7 @@ const About = () => {
                 </p>
               </div>
               <button
-                className="flex items-center gap-1 px-3 py-1 text-white bg-blue-500 rounded-md"
+                className="flex items-center gap-1 px-3 py-1 text-white bg-blue-500 rounded-md hover:bg-blue-600"
                 onClick={() =>
                   (window.location.href = "mailto:ryanhendrawan9@gmail.com")
                 }

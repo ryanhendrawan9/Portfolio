@@ -59,7 +59,7 @@ const Project = () => {
                   {project.techStack.map((tech, idx) => (
                     <div
                       key={idx}
-                      className="px-3 py-1 text-sm font-medium text-gray-300 bg-gray-800 rounded-full"
+                      className="px-3 py-1 text-sm font-medium text-gray-300 bg-gray-700 rounded-full"
                     >
                       {tech}
                     </div>
@@ -79,7 +79,7 @@ const Project = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-6 py-2 text-white transition-colors bg-gray-800 rounded-lg shadow-md hover:bg-gray-900"
+                      className="flex items-center gap-2 px-6 py-2 text-white transition-colors bg-gray-700 rounded-lg shadow-md hover:bg-gray-800"
                     >
                       <FaGithub /> Github
                     </a>
