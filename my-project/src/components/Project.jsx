@@ -2,6 +2,9 @@ import React from "react";
 import Wedding from "../assets/project-1.png";
 import Figma from "../assets/project-2.png";
 import Cafe from "../assets/project-3.png";
+import Portfolio from "../assets/project-4.png";
+import Reqres from "../assets/project-5.png";
+import Netflix from "../assets/project-6.png";
 import { FaGithub } from "react-icons/fa";
 
 const Project = () => {
@@ -31,6 +34,58 @@ const Project = () => {
       link: "https://ryanhendrawan9.github.io/flagshipharvestsupply/",
       github: "https://github.com/ryanhendrawan9/flagshipharvestsupply.git",
       image: Cafe,
+    },
+    {
+      title: "Portfolio",
+      description:
+        "A modern and responsive portfolio website built with React.js, Vite, Tailwind CSS, and Framer Motion. Showcasing my projects, skills, and experiences with smooth animations and an engaging UI.",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind",
+        "React",
+        "Vite",
+        "Framer Motion",
+      ],
+      link: "https://ryanhendrawan9.github.io/Portfolio/",
+      github: "https://github.com/ryanhendrawan9/Portfolio.git",
+      image: Portfolio,
+    },
+    {
+      title: "Mini Project Reqres API",
+      description:
+        "In this project, I’ve learned how to handle user authentication with Reqres API, fetch dynamic data, and implement animations that enhance user experience using Framer Motion. This helped me improve both my front-end and animation skills.",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind",
+        "React",
+        "Vite",
+        "Framer Motion",
+        "Reqres API",
+      ],
+      link: "https://miniproject-reqres.vercel.app/",
+      github: "https://github.com/ryanhendrawan9/miniproject-reqres.git",
+      image: Reqres,
+    },
+    {
+      title: "Netflix Clone",
+      description:
+        "Netflix Clone Website With Movie Database API and Firebase User Authentication In React JS",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Vite",
+        "TMDB API",
+        "Firebase",
+      ],
+      link: "https://clone-netflix-react-iota.vercel.app/",
+      github: "https://github.com/ryanhendrawan9/clone-netflix-react.git",
+      image: Netflix,
     },
   ];
   return (
@@ -70,7 +125,7 @@ const Project = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-6 py-2 text-white transition-colors bg-blue-500 rounded-lg shadow-md hover:bg-blue-600"
+                    className="inline-block px-6 py-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]"
                   >
                     View Project
                   </a>
@@ -79,7 +134,7 @@ const Project = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-6 py-2 text-white transition-colors bg-gray-700 rounded-lg shadow-md hover:bg-gray-800"
+                      className="flex items-center gap-2 px-6 py-2 text-white transition-colors bg-gray-700 rounded-lg shadow-md hover:bg-gray-500"
                     >
                       <FaGithub /> Github
                     </a>

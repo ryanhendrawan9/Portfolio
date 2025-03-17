@@ -64,7 +64,10 @@ const About = () => {
                   Node.js
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
-                  GIT
+                  Git
+                </p>
+                <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
+                  GitHub
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
                   React
@@ -76,11 +79,17 @@ const About = () => {
                   Next.js
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
+                  Firebase
+                </p>
+                <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
+                  Framer Motion
+                </p>
+                <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
                   Figma
                 </p>
               </div>
               <button
-                className="flex items-center gap-1 px-3 py-1 text-white bg-blue-500 rounded-md hover:bg-blue-600"
+                className="flex items-center gap-1 px-3 py-1 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]"
                 onClick={() =>
                   (window.location.href = "mailto:ryanhendrawan9@gmail.com")
                 }

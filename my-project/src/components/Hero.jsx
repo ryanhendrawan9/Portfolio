@@ -8,7 +8,10 @@ import CV from "../assets/CV-Ryan-Hendrawan-2025.pdf";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative z-10 flex flex-col items-center justify-center pb-10 text-white h-max md:h-screen bg-gradient-to-l bg-gray-950">
+    <section
+      id="home"
+      className="relative z-10 flex flex-col items-center justify-center pb-10 text-white h-max md:h-screen bg-gradient-to-l bg-gray-950"
+    >
       {/* stars */}
       <div>
         <span></span>

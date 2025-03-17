@@ -19,28 +19,40 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
         <nav className="mt-12">
           <ul className="flex flex-col text-lg font-semibold text-white gap-7">
             <a href="#home">
-              <li className="cursor-pointer" onClick={() => setShowMenu(false)}>
+              <li
+                className="cursor-pointer hover:text-blue-400"
+                onClick={() => setShowMenu(false)}
+              >
                 Home
               </li>
             </a>
             <a href="#about">
-              <li className="cursor-pointer" onClick={() => setShowMenu(false)}>
+              <li
+                className="cursor-pointer hover:text-blue-400"
+                onClick={() => setShowMenu(false)}
+              >
                 About
               </li>
             </a>
             <a href="#education">
-              <li className="cursor-pointer" onClick={() => setShowMenu(false)}>
+              <li
+                className="cursor-pointer hover:text-blue-400"
+                onClick={() => setShowMenu(false)}
+              >
                 Education & Experience
               </li>
             </a>
             <a href="#project">
-              <li className="cursor-pointer" onClick={() => setShowMenu(false)}>
+              <li
+                className="cursor-pointer hover:text-blue-400"
+                onClick={() => setShowMenu(false)}
+              >
                 Projects
               </li>
             </a>
             <a href="#contact">
               <button
-                className="px-3 py-1 cursor-pointer rounded-md bg-blue-500 text-white flex items-center gap-1 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] shadow-blue-500 border-blue-400 border-2"
+                className="px-3 py-1 cursor-pointer rounded-md bg-blue-500 text-white flex items-center gap-1 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] shadow-blue-500 border-blue-400 border-2 hover:bg-blue-600"
                 onClick={() => setShowMenu(false)}
               >
                 Contact

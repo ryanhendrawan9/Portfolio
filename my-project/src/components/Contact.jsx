@@ -23,7 +23,7 @@ const Contact = () => {
               <p className="mt-2 text-gray-600">
                 <a
                   href="mailto:ryanhendrawan9@gmail.com"
-                  className="text-blue-500 hover:underline"
+                  className="text-blue-400 hover:underline"
                 >
                   ryanhendrawan9@gmail.com
                 </a>
@@ -36,7 +36,7 @@ const Contact = () => {
                   href="https://wa.me/6282192892384"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline"
+                  className="text-blue-400 hover:underline"
                 >
                   +6282192892384
                 </a>
@@ -129,7 +129,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full py-3 text-white transition-colors bg-blue-500 rounded-lg shadow-md hover:bg-blue-600"
+                className="w-full py-3 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]"
               >
                 Send Message
               </button>
