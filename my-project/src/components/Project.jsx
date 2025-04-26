@@ -5,6 +5,7 @@ import Cafe from "../assets/project-3.png";
 import Portfolio from "../assets/project-4.png";
 import Reqres from "../assets/project-5.png";
 import Netflix from "../assets/project-6.png";
+import Food from "../assets/project-7.png";
 import { FaGithub } from "react-icons/fa";
 
 const Project = () => {
@@ -86,6 +87,24 @@ const Project = () => {
       link: "https://clone-netflix-react-iota.vercel.app/",
       github: "https://github.com/ryanhendrawan9/clone-netflix-react.git",
       image: Netflix,
+    },
+    {
+      title: "Dibimbing Food",
+      description:
+        "Next.js food discovery web app featuring modern UI with glassmorphism design, JWT authentication, CRUD operations, responsive layout, and real-time notifications. This project developed my skills in state management, component reusability, and creating intuitive user experiences with consistent styling.",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind",
+        "React",
+        "Next.js",
+        "API",
+        "CRUD",
+      ],
+      link: "https://dibimbing-food-nextjs.vercel.app/",
+      github: "https://github.com/ryanhendrawan9/DibimbingFood-Nextjs.git",
+      image: Food,
     },
   ];
   return (
