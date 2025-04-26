@@ -101,6 +101,7 @@ const Project = () => {
         "Next.js",
         "API",
         "CRUD",
+        "Jest",
       ],
       link: "https://dibimbing-food-nextjs.vercel.app/",
       github: "https://github.com/ryanhendrawan9/DibimbingFood-Nextjs.git",
