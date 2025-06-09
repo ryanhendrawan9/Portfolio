@@ -1,4 +1,3 @@
-import React from "react";
 import Wedding from "../assets/project-1.png";
 import Figma from "../assets/project-2.png";
 import Cafe from "../assets/project-3.png";
@@ -6,6 +5,7 @@ import Portfolio from "../assets/project-4.png";
 import Reqres from "../assets/project-5.png";
 import Netflix from "../assets/project-6.png";
 import Food from "../assets/project-7.png";
+import HealingKuy from "../assets/project-8.png";
 import { FaGithub } from "react-icons/fa";
 
 const Project = () => {
@@ -99,6 +99,7 @@ const Project = () => {
         "Tailwind",
         "React",
         "Next.js",
+        "Framer Motion",
         "API",
         "CRUD",
         "Jest",
@@ -106,6 +107,27 @@ const Project = () => {
       link: "https://dibimbing-food-nextjs.vercel.app/",
       github: "https://github.com/ryanhendrawan9/DibimbingFood-Nextjs.git",
       image: Food,
+    },
+    {
+      title: "HealingKuy - Final Project",
+      description:
+        "HealingKuy is a modern travel website built with React, Next.js, Tailwind CSS, and Framer Motion. It features login, CRUD, and API integration tested with Postman. Smooth animations make the experience better. This project helped me sharpen my frontend and API skills in a real world setup.",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind",
+        "React",
+        "Next.js",
+        "Framer Motion",
+        "API",
+        "Postman",
+        "CRUD",
+        "Lighthouse",
+      ],
+      link: "https://healingkuy.vercel.app/",
+      github: "https://github.com/ryanhendrawan9/finpro-travel-nextjs.git",
+      image: HealingKuy,
     },
   ];
   return (

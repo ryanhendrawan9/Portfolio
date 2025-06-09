@@ -31,7 +31,7 @@ const Navbar = ({ showMenu, setShowMenu, toggleMenu }) => {
       <div className="flex items-center justify-between px-4 mx-auto max-w-7xl md:px-0">
         {/* Logo Section */}
         <div>
-          <img src={Logo} alt="" className="w-[90px]" />
+          <img src={Logo} alt="" className="w-[45px]" />
         </div>
         {/* Menu Section */}
         <nav className="hidden md:block">

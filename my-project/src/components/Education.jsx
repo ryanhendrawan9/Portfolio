@@ -1,27 +1,38 @@
 import React from "react";
+
 const education = [
   {
     institution: "dibimbing.id",
     degree: "Front-End Web Development",
     year: "Nov 2024 - May 2025",
-    description: "",
+    description: [
+      "Final Score : 98.14 (A+)",
+      "Award : Most Valuable Player, Best Final Portfolio Project and Most Active Student",
+    ],
     icon: "🎓",
   },
   {
     institution: "Universitas Lambung Mangkurat",
     degree: "Bachelor of Law",
     year: "2016 - 2022",
-    description: "",
+    description: [],
     icon: "🎓",
   },
 ];
 
 const experience = [
   {
+    role: "Frontend Developer",
+    company: "Senstech (Internship)",
+    year: "Jun 2025 - Aug 2025",
+    description: [],
+    icon: "💼",
+  },
+  {
     role: "Government Administration",
     company: "Dinas Pendidikan dan Kebudayaan Prov. Kalimantan Selatan",
     year: "2018 - Present",
-    description: "",
+    description: [],
     icon: "💼",
   },
 ];
@@ -51,7 +62,16 @@ const Education = () => {
                   </h4>
                   <p className="text-gray-300">{edu.degree}</p>
                   <p className="text-sm italic text-gray-300">{edu.year}</p>
-                  <p className="mt-2 text-gray-300">{edu.description}</p>
+                  {/* Render array description */}
+                  {edu.description.length > 0 && (
+                    <div className="mt-2">
+                      {edu.description.map((desc, i) => (
+                        <p key={i} className="text-gray-300">
+                          {desc}
+                        </p>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -73,7 +93,16 @@ const Education = () => {
                   </h4>
                   <p className="text-gray-300">{exp.company}</p>
                   <p className="text-sm italic text-gray-300">{exp.year}</p>
-                  <p className="mt-2 text-gray-300">{exp.description}</p>
+                  {/* Render array description */}
+                  {exp.description.length > 0 && (
+                    <div className="mt-2">
+                      {exp.description.map((desc, i) => (
+                        <p key={i} className="text-gray-300">
+                          {desc}
+                        </p>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}

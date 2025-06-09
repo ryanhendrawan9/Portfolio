@@ -82,10 +82,16 @@ const About = () => {
                   Jest
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
+                  Lighthouse
+                </p>
+                <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
                   Firebase
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
                   Framer Motion
+                </p>
+                <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
+                  Postman
                 </p>
                 <p className="px-2 py-1 text-gray-300 bg-gray-900 rounded-full cursor-pointer">
                   Figma
