@@ -21,15 +21,16 @@ const About = () => {
           {/* paragraph section */}
           <div className="p-5 md:p-10 bg-gray-950 rounded-md shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500">
             <p className="mb-6 text-lg leading-7">
-              Hi! I'm Ryan Hendrawan, Government professional with 7+ years of
-              experience in cultural heritage and museum management, skilled in
-              preserving cultural assets and enhancing public engagement.
+              Hi! I'm Ryan Hendrawan, Front-End Developer with 7+ years of
+              government administration experience, now leveraging strong
+              analytical, project management, and problem-solving skills into
+              building high-performance web applications.
             </p>
             <p className="mb-6 text-lg leading-7">
-              Pursuing a career in frontend developer, with a focus on creating
-              visually engaging and accessible websites. Ready to combine
-              cultural insights and technical skills to craft impactful digital
-              experiences for users.
+              Completed multiple front-end projects using React.js, Next.js, and
+              modern frameworks with a perfect score and awards during intensive
+              bootcamp. Passionate about delivering accessible, scalable, and
+              engaging user experiences.
             </p>
             <p className="text-lg leading-7 ">
               My journey into tech began from a non-IT background, and I've
