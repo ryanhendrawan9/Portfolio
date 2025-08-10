@@ -3,7 +3,14 @@ import React from "react";
 const education = [
   {
     institution: "dibimbing.id",
-    degree: "Front-End Web Development",
+    degree: "English Journey Batch 3",
+    year: "Jun 2025 - July 2025",
+    description: ["Final Test (Speaking and Writing) : B2"],
+    icon: "🎓",
+  },
+  {
+    institution: "dibimbing.id",
+    degree: "Front-End Web Development Batch 21",
     year: "Nov 2024 - May 2025",
     description: [
       "Final Score : 98.14 (A+)",
@@ -15,7 +22,7 @@ const education = [
     institution: "Universitas Lambung Mangkurat",
     degree: "Bachelor of Law",
     year: "2016 - 2022",
-    description: [],
+    description: ["GPA : 3.18"],
     icon: "🎓",
   },
 ];
